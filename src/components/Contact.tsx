@@ -6,12 +6,12 @@ export default function Contact () {
                 <div className="max-w-54 lg:max-w-2xl text-wrap md:pt-10 xl:ml-10 text-start basis-1/4">
                     <span className="text-[14px] font-medium text-gray-100 md:text-gray-400">GET IN TOUCH</span>
                     <h2 className="font-bold text-gray-200 text-[35px] lg:text-[40px] xl:text-[45px] mt-2 w-[10em]">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">I&&lsquo;m Always </span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">I&&apos;m Always </span>
                         At 
                         Your Service
                     </h2>
                     <small className="text-gray-100 md:text-gray-400">
-                        If you would love us to work on any of your project ideas, then i&lsquo;m just a chat away. 
+                        If you would love us to work on any of your project ideas, then i&apos;m just a chat away. 
                         Won't mind Volunteering if it requires learning new things
                     </small>
 

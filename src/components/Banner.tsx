@@ -48,7 +48,7 @@ export default function Banner() {
                 </div> 
                 <div className="flex flex-col w-full">
                     <p className="text-base tracking-wide text-gray-300 mt-10 max-w-[600px]" >
-                        👋 I&lsquo;m a Full Stack Software Developer with a knack for building creative solutions. 
+                        👋 I&apos;m a Full Stack Software Developer with a knack for building creative solutions. 
                         I thrive in both collaborative environments and on independent projects.  
                         Looking for a fulltime onsite developer or a freelancer ?
                         Let's Get Started !!
