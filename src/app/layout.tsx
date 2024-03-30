@@ -27,7 +27,7 @@ export default function RootLayout({
           {children}
           <Footer/>
         </div>          
-        <script src="./node_modules/preline/dist/preline.js"></script>
+        <script src="./node_modules/preline/dist/preline.js" async />
       </body>
     </html>
   );
