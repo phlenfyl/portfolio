@@ -8,7 +8,7 @@ import Loading from "./loading";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "MDP Dev",
   description: "Dm to know more",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className= {`${inter.className} max-w-screen-2xl mx-auto font-san bg-gray-900 overflow-x-hidden`}>
-        <link rel="icon" href="/meshez.png" sizes="any" />
+        <link rel="icon" href="/meshe.jpg" sizes="any" />
         <Loading />
         <div className="overflow-x-hidden">
           <Navbar />
