@@ -1,15 +1,33 @@
-import Banner from "@/components/Banner";
+import Sidebar from "@/components/Sidebar";
+import Hero from "@/components/Hero";
+import Systems from "@/components/Systems";
+import IncidentLog from "@/components/IncidentLog";
+import Background from "@/components/Background";
 import Contact from "@/components/Contact";
-import Services from "@/components/Services";
-import Skills from "@/components/Skills";
+import { profile } from "@/data/content";
 
 export default function Home() {
   return (
-    <main className="bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 divide-y divide-slate-800">
-        <Banner />
-        <Services />
-        <Skills />
-        <Contact />
-    </main>
+    <>
+      <div className="mob-top">
+        <div className="id">
+          <div className="mark">{profile.initials}</div>
+          <b>{profile.shortName}</b>
+        </div>
+        <a className="btn" href={profile.cv} target="_blank" rel="noopener noreferrer">
+          CV
+        </a>
+      </div>
+      <div className="layout">
+        <Sidebar />
+        <main id="top">
+          <Hero />
+          <Systems />
+          <IncidentLog />
+          <Background />
+          <Contact />
+        </main>
+      </div>
+    </>
   );
 }
