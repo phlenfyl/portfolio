@@ -50,10 +50,6 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="side-foot">
-        <span className="avail">
-          <i />
-          {profile.availability}
-        </span>
         <a href={`mailto:${profile.email}`}>{profile.email}</a>
         <a href={profile.github} target="_blank" rel="noopener noreferrer">
           github.com/{profile.githubHandle} ↗

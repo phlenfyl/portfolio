@@ -5,7 +5,7 @@ export default function Hero() {
     <>
       <div className="top">
         <span className="k">Portfolio / rev. 2026.10</span>
-        <span className="k">Lagos, NG · Remote · UTC+1</span>
+        <span className="k">Remote · West Africa Time (Lagos, Nigeria)</span>
       </div>
 
       <header className="hero">

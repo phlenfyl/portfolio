@@ -25,8 +25,6 @@
   .toc a:hover,.toc a.on{color:var(--ink);border-left-color:var(--accent);background:var(--sheet)}
   .side-foot{display:grid;gap:10px;font-size:13.5px}
   .side-foot a:hover{color:var(--accent)}
-  .avail{display:flex;gap:8px;align-items:center;font:500 12px var(--font-mono);color:var(--muted)}
-  .avail i{width:8px;height:8px;background:#22a35a;border-radius:50%}
   .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:42px;padding:0 18px;font:500 13.5px var(--font-mono);border:1.5px solid var(--ink);transition:all .15s;cursor:pointer;background:none;color:var(--ink)}
   .btn:hover{background:var(--ink);color:var(--paper)}
   .btn.fill{background:var(--accent);border-color:var(--accent);color:#fff}

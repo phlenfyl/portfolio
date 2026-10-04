@@ -33,7 +33,7 @@ export default function Systems() {
             <span className="pid">{p.id}</span>
             <h3>{p.title}</h3>
             <span className="k">
-              {p.role} · {p.dates.slice(0, 4)} →
+              {p.role} · {p.dates}
             </span>
           </div>
           <div className="sheet-body">

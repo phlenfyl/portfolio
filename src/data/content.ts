@@ -31,7 +31,6 @@ export const profile = {
   title: "Backend Engineer",
   focus: "Python · Django · AWS · MCP",
   location: "Lagos, Nigeria",
-  availability: "Open to full-time roles & projects",
   currentRole: "Full Stack Developer",
   currentCompany: "Benmore Technologies",
   languages: "English · French · Yoruba",
@@ -58,7 +57,7 @@ export const projects: Project[] = [
     category: "Mobile · Loyalty",
     tagline: "Fuel & car-wash loyalty app, live on iOS & Android",
     role: "Lead developer",
-    dates: "2025 — Present",
+    dates: "2025, 2026 → Present",
     summary:
       "Loyalty app for a fuel and car-wash chain in Connecticut and Massachusetts. Reached 2,000 users in its first two weeks and now serves 5K+ active users. I built and launched it, run its AWS infrastructure, and handle production support.",
     highlights: [
@@ -87,7 +86,7 @@ export const projects: Project[] = [
     category: "Logistics · Web platform",
     tagline: "Freight shipping portal, 80,000+ orders processed",
     role: "Sole engineer",
-    dates: "2024 — Present",
+    dates: "2024, 2026 → Present",
     summary:
       "Orders, shipping labels, carrier onboarding and customer tracking for a Chicago/Nashville freight broker. I led the platform through its acquisition by ALG Worldwide Logistics (Feb 2025) and moved it onto ALG's AWS.",
     highlights: [
@@ -115,7 +114,7 @@ export const projects: Project[] = [
     category: "Integrations · ERP",
     tagline: "POS, wholesale & payroll → Sage Intacct, 13 dispensaries",
     role: "Integration engineer",
-    dates: "2024 — Present",
+    dates: "2024 → Present",
     summary:
       "Automated bookkeeping for a Colorado cannabis retailer with 13 dispensaries. POS, wholesale and payroll data post into Sage Intacct by themselves, with an MCP connector so the team can query it from Claude and ChatGPT.",
     highlights: [
@@ -143,7 +142,7 @@ export const projects: Project[] = [
     category: "Internal platform",
     tagline: "Agency client & operations platform",
     role: "Core developer",
-    dates: "2024 — Present",
+    dates: "2024 → Present",
     summary:
       "Benmore's own platform for clients and staff: client portal, billing, finance, sales, hiring and HR in one Django app. Co-built with the founder, with ~1,000 commits from me.",
     highlights: [
