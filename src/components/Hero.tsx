@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
         <p>
           Backend engineer at {profile.currentCompany}, building production systems for US clients: a fuel-rewards app
-          with 5K+ active users, a freight portal that has processed 80,000+ orders, ERP automation for 13 dispensaries,
+          that reached 2,000 users in two weeks, a freight portal that has processed 80,000+ orders, ERP automation for a multi-location retailer,
           and AI connectors that let teams operate them from Claude and ChatGPT.
         </p>
         <div className="actions">
