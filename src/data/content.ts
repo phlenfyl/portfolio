@@ -133,26 +133,30 @@ export const projects: Project[] = [
   },
   {
     id: "SYS-04",
-    title: "Agency Operations Platform",
-    shortTitle: "Agency Operations Platform",
+    title: "Benmore Client & Operations Portal",
+    shortTitle: "Benmore Client Portal",
     category: "Internal platform",
-    tagline: "Client portal, billing, finance, sales and HR in one app",
+    tagline: "Client portal, billing, finance and team tools in one app",
     role: "Core developer",
     dates: "2024 → Present",
     summary:
-      "A software agency's platform for its clients and staff: client portal, billing, finance, sales and HR in one Django app. Co-built with the founder, with ~1,000 commits from me.",
+      "Co-built Benmore's client and operations portal with the founder, with ~1,000 commits from me: client portal, billing, finance and team tools in one Django app.",
     highlights: [
-      "Client billing with e-signature documents and online payment links",
-      "Finance and reporting tools with bank-feed integration",
-      "Sales commissions assigned automatically from payments",
-      "Security hardening: two-factor authentication and OWASP fixes",
+      "Client billing with Stripe: e-signature documents with payment links, installment invoices, and webhook-driven receipts",
+      "Finance and reporting tools, including payment reconciliation and bank-data integration",
+      "Security: 2FA and device trust, OWASP ZAP fixes and field-level encryption for sensitive data",
+      "Extended sessions from 8 hours to 10 days",
     ],
     tech: ["Django", "PostgreSQL", "Redis", "Stripe", "Tailwind CSS"],
+    link: { label: "client.benmore.tech", href: "https://client.benmore.tech/" },
     flow: [
-      [{ label: "Payments · Banking · Chat", kind: "external" }, { label: "Django platform", kind: "core" }],
-      [{ label: "Clients" }, { label: "Billing" }, { label: "Finance" }, { label: "HR" }],
+      [{ label: "Stripe · Bank data", kind: "external" }, { label: "Django portal", kind: "core" }],
+      [{ label: "Clients" }, { label: "Billing" }, { label: "Finance" }, { label: "Team tools" }],
     ],
-    metrics: [{ value: "~1,000", label: "commits" }],
+    metrics: [
+      { value: "~1,000", label: "commits" },
+      { value: "8h→10d", label: "sessions" },
+    ],
   },
 ];
 
