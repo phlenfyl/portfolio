@@ -52,14 +52,14 @@ export const stats = [
 export const projects: Project[] = [
   {
     id: "SYS-01",
-    title: "Fuel & Car-Wash Rewards App",
-    shortTitle: "Fuel & Car-Wash Rewards",
+    title: "Noble Gas Rewards",
+    shortTitle: "Noble Gas Rewards",
     category: "Mobile · Loyalty",
-    tagline: "Loyalty app for a regional fuel and car-wash chain, live on iOS & Android",
+    tagline: "Fuel & car-wash loyalty app, live on iOS & Android",
     role: "Lead developer",
     dates: "2025, 2026 → Present",
     summary:
-      "Loyalty app for a regional chain of fuel stations and car washes, live on iOS and Android. It reached 2,000 users in its first two weeks. I built and launched it, run its cloud infrastructure, and handle production support.",
+      "Loyalty app for a chain of fuel stations and car washes in Connecticut and Massachusetts, live on iOS and Android. It reached 2,000 users in its first two weeks. I built and launched it, run its cloud infrastructure, and handle production support.",
     highlights: [
       "Fuel POS and car-wash vendor integrations, so points post automatically at the pump",
       "Moved production onto AWS with infrastructure as code (Terraform)",
@@ -68,6 +68,7 @@ export const projects: Project[] = [
       "AI connector (MCP) so staff run back-office tasks from Claude & ChatGPT, behind approvals and audit logs",
     ],
     tech: ["Django", "Celery", "Redis", "PostgreSQL", "Flutter", "WebSockets", "AWS", "Terraform", "MCP"],
+    link: { label: "noble-portal.com", href: "https://www.noble-portal.com/" },
     flow: [
       [{ label: "Fuel POS", kind: "external" }, { label: "Django · Celery", kind: "core" }, { label: "Mobile app" }],
       [{ label: "Claude / ChatGPT", kind: "external" }, { label: "MCP server" }, { label: "AWS", kind: "core" }],
@@ -80,14 +81,14 @@ export const projects: Project[] = [
   },
   {
     id: "SYS-02",
-    title: "Freight Shipping Portal",
-    shortTitle: "Freight Shipping Portal",
+    title: "The 357 Company → ALG Worldwide Logistics",
+    shortTitle: "357 Company → ALG",
     category: "Logistics · Web platform",
     tagline: "Orders, labels and carrier onboarding, 80,000+ orders processed",
     role: "Sole engineer",
     dates: "2024, 2026 → Present",
     summary:
-      "Orders, shipping labels, carrier onboarding and customer tracking for a freight broker. I've owned it end to end, including through the company's acquisition and the move onto the new owner's cloud.",
+      "Orders, shipping labels, carrier onboarding and customer tracking for a Chicago/Nashville freight broker. I've owned it end to end, including through the company's acquisition by ALG Worldwide Logistics (Feb 2025) and the move onto ALG's cloud.",
     highlights: [
       "Cloud-to-cloud migration with every table verified by row count",
       "Carrier API integrations with exactly-once booking, so freight is never double-booked",
@@ -95,6 +96,7 @@ export const projects: Project[] = [
       "Tenant data isolation and access-control hardening; test suite grown 4×",
     ],
     tech: ["Django", "PostgreSQL", "AWS", "Carrier APIs", "Webhooks"],
+    link: { label: "Case study", href: "https://benmore.tech/case-studies/the-357-company/" },
     flow: [
       [{ label: "Legacy host", kind: "external" }, { label: "AWS", kind: "core" }],
       [{ label: "Carrier APIs", kind: "external" }, { label: "Webhooks" }, { label: "Django portal", kind: "core" }],
@@ -106,8 +108,8 @@ export const projects: Project[] = [
   },
   {
     id: "SYS-03",
-    title: "Retail ERP Integrations",
-    shortTitle: "Retail ERP Integrations",
+    title: "Sun Theory",
+    shortTitle: "Sun Theory",
     category: "Integrations · ERP",
     tagline: "POS, wholesale & payroll → ERP for a multi-location retailer",
     role: "Integration engineer",
@@ -121,6 +123,7 @@ export const projects: Project[] = [
       "Every sync idempotent and retry-safe, with failure alerts",
     ],
     tech: ["Django", "ERP XML API", "POS API", "Wholesale API", "Payroll API", "MCP"],
+    link: { label: "Case studies", href: "https://benmore.tech/case-studies/" },
     flow: [
       [{ label: "POS", kind: "external" }, { label: "Sync engine", kind: "core" }, { label: "ERP GL" }],
       [{ label: "Wholesale", kind: "external" }, { label: "Sync engine", kind: "core" }, { label: "ERP AR" }],
